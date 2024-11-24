@@ -9,7 +9,7 @@ Welcome to the PowerBI Import Data from Dynamic URLs wiki!
 * This can be done manually by connecting to each SharePoint list, however you want to make it dynamic so that any new list that gets added or removed will add or remove the data in the table accordingly.
 * Furthermore you want this to be able to be refreshed in PowerBI / Fabric workspace.
 
-Uploaded are two files which can help accomplish this for you:
+Uploaded are two files which can help accomplish this for you. NOTE THAT THE UPLOADED FILE IS JUST AN EXAMPLE. YOU WILL NEED TO ADAPT THE CODE FOR YOUR OWN USE CASES AND REQUIREMENTS.
 
 **ImportSharePointLists**
 This initial query imports SharePoint lists within your site into a table, then invokes a custom function to cycle through all the lists. This normally would not work in the PowerBI / Fabric Online Workspace  unless you construct the PowerQuery M using  Web.Contents().
