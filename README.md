@@ -16,10 +16,10 @@ This initial query imports SharePoint lists within your site into a table, then 
 
 The issue arises because, during a dataset refresh, Power BI performs a static analysis of the code to identify the dataset's data sources and verify the provided credentials. Unfortunately, this analysis sometimes fails, such as when the definition of a data source depends on parameters from a custom M function. As a result, the dataset fails to refresh.
 
-On the bright side, in cases like this where the data source involves a call to Web.Contents(), Power BI's static analysis only checks the base URL provided in the first parameter.
+In cases like this where the data source involves a call to Web.Contents(), Power BI's static analysis only checks the base URL provided in the first parameter.
 
 **URLFunction**
-This custom function will construct the URL to retrieve the list data.
+This custom function will construct the URL to retrieve the list data using Web.Contents().
 
 You will then be able to expand out the column to retrieve the specific list data.
 
