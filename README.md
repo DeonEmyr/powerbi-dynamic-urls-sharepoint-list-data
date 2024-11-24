@@ -1,8 +1,5 @@
-# powerbi-dynamic-urls-sharepoint-list-data
-PowerBI - Ingest from multiple SharePoints using Dynamic URLs - PowerQueryM 
-
-
-Welcome to the PowerBI Import Data from Dynamic URLs wiki!
+# PowerBI / Fabric: Dynamic URLs With Sharepoint List Data using PowerQueryM
+PowerBI - Ingest from multiple SharePoints using Dynamic URLs. 
 
 * Imagine if you had to import SharePoint list data from multiple SharePoint lists from a single SharePoint site. 
 * The SharePoint List structure is the same across the site and you need a query to cycle through all the lists to pull out all the data for reporting. 
